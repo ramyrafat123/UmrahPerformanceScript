@@ -22,7 +22,8 @@ The script uses JMeter to simulate ten users sending requests to two pages on th
 
 ### Results
 The results of the performance test can be viewed in JMeter's result tree or by exporting the results to a file. The results should include information such as response time, throughput, and error rate.
-<img src="https://user-images.githubusercontent.com/69609663/226194536-84f3476c-e631-4d8f-adae-c196a0a7e390.png" width="150" height="200">
+
+<img src="https://user-images.githubusercontent.com/69609663/226194536-84f3476c-e631-4d8f-adae-c196a0a7e390.png" width="300" height="400">
 
 
 ### Contributing
