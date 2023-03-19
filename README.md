@@ -1,21 +1,29 @@
-# UmrahPerformanceScript
-Performance Test Script for umrah.eg/home Site
-This repository contains the JMeter script used to perform performance testing on the umrah.eg/home website. The script sends HTTP requests to two pages on the website using ten concurrent users and is executed twice to simulate load.
+##Performance Test Script for https://umrah.eg/home Site
 
-Prerequisites
-Apache JMeter 5.4 or later installed on your machine.
-Internet connectivity to connect to the umrah.eg/home website.
-Instructions
-Clone this repository to your local machine using the following command:
-bash
-Copy code
-git clone https://github.com/<your-github-username>/umrah-performance-test.git
-Open JMeter and import the umrah-performance-test.jmx file located in the jmeter directory of the cloned repository.
-Modify the HTTP Request samplers in the script to use the desired pages on the umrah.eg/home website.
-Run the test script by clicking the "Play" button or by using the command line.
-The results of the test will be displayed in JMeter's "Summary Report" and "Graph Results" listeners.
-Test Details
-The performance test script sends a total of 40 HTTP requests to the umrah.eg/home website using ten concurrent users. The script is executed twice to simulate load. The test duration and ramp-up time can be modified in the JMeter script as needed.
+This is a performance test script that uses JMeter to simulate ten users sending requests to two pages on the https://umrah.eg/home site. The script will be run twice, resulting in a total of 40 HTTP requests.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+###Setup
+Install JMeter on your local machine
+Clone this repository to your local machine
+Open JMeter and open the .jmx script from the cloned repository.
+
+###Test Execution
+Open the .jmx script in JMeter
+Run the script
+Observe the results
+
+![image](https://user-images.githubusercontent.com/69609663/226194302-4c1ddcc3-35f9-4496-a3f1-257b3f07747f.png)
+![image](https://user-images.githubusercontent.com/69609663/226194485-0aa5f369-c3ab-439e-b9d9-e6fdbb19f790.png)
+![image](https://user-images.githubusercontent.com/69609663/226194498-5ec71fba-4e56-47c4-9acb-7aed3ab00a57.png)
+
+
+###Test Details
+The script uses JMeter to simulate ten users sending requests to two pages on the https://umrah.eg/home site. The two pages are selected by the tester and specified in the script. The test is run twice, with a total of 40 HTTP requests.
+
+###Results
+The results of the performance test can be viewed in JMeter's result tree or by exporting the results to a file. The results should include information such as response time, throughput, and error rate.
+![image](https://user-images.githubusercontent.com/69609663/226194536-84f3476c-e631-4d8f-adae-c196a0a7e390.png)
+
+
+###Contributing
+If you find any issues or have suggestions for improvements, please feel free to create a pull request or submit an issue in the repository.
