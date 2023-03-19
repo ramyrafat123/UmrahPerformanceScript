@@ -3,9 +3,9 @@
 This is a performance test script that uses JMeter to simulate ten users sending requests to two pages on the https://umrah.eg/home site. The script will be run twice, resulting in a total of 40 HTTP requests.
 
 ### Setup
-Install JMeter on your local machine
-Clone this repository to your local machine
-Open JMeter and open the .jmx script from the cloned repository.
+1. Install JMeter on your local machine
+2. Clone this repository to your local machine
+3. Open JMeter and open the .jmx script from the cloned repository.
 
 ### Test Execution
 Open the .jmx script in JMeter
