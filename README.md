@@ -8,9 +8,9 @@ This is a performance test script that uses JMeter to simulate ten users sending
 3. Open JMeter and open the .jmx script from the cloned repository.
 
 ### Test Execution
-Open the .jmx script in JMeter
-Run the script
-Observe the results
+1. Open the .jmx script in JMeter
+2. Run the script
+3. Observe the results
 
 ![image](https://user-images.githubusercontent.com/69609663/226194302-4c1ddcc3-35f9-4496-a3f1-257b3f07747f.png)
 ![image](https://user-images.githubusercontent.com/69609663/226194485-0aa5f369-c3ab-439e-b9d9-e6fdbb19f790.png)
